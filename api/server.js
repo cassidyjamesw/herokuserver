@@ -7,7 +7,7 @@ server.use(helmet());
 server.use(express.json());
 
 server.get("/", (req, res) => {
-  res.status(200).json({ api: "running!!" });
+  res.status(200).json({ api: "runninggg!!" });
 });
 
 module.exports = server;
